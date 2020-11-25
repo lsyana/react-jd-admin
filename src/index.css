@@ -1,0 +1,58 @@
+@import '~antd/dist/antd.css';
+
+html,body,#root,.ant-layout{
+  height: 100%;
+}
+.logo{
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+/* #e1251b */
+.ant-layout-sider-children{
+  background-color: #1890ff;
+}
+ .ant-menu.ant-menu-dark{
+  background-color: #1890ff;
+}
+.ant-menu-item{
+  background-color: #1890ff;
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub{
+  background-color: transparent;
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub{
+  background-color: transparent;
+}
+
+/* 加载 */
+.loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
